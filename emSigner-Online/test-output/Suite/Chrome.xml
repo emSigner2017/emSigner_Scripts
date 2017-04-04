@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAP122" name="Scripts_Onlinesigning.Online_signing" tests="1" failures="0" timestamp="22 Mar 2017 10:53:45 GMT" time="47.47" errors="0">
+  <testcase name="logincheck" time="38.591" classname="Scripts_Onlinesigning.Online_signing"/>
+</testsuite>

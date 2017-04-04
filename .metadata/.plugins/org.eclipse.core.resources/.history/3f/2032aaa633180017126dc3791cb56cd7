@@ -1,0 +1,36 @@
+package PageFactory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+
+public class pf_onlinesignpage {
+
+	@FindBy(how = How.ID, using = "Signonline") WebElement initiate_adhoc_signing;
+	@FindBy(how = How.ID, using = "Offline") WebElement offline_signing;
+	
+//	Create template page elements
+	
+	@FindBy(how = How.ID, using = "sample") WebElement create_template;
+	@FindBy(how = How.ID, using = "btncontinue") WebElement offline_continuebtn;
+	@FindBy(how = How.ID, using = "draggableDiv_1") WebElement signatory1_box;
+	@FindBy(how = How.ID, using = "ddlSelectpage") WebElement selectpage_sign;
+	@FindBy(how = How.ID, using = "ddlSignaturePosition") WebElement sign_position;
+	@FindBy(how = How.ID, using = "objpdfconfigviewmodel_Profile") WebElement document_templatename;
+	@FindBy(how = How.ID, using = "btnSave") WebElement save_btn;
+	@FindBy(how = How.CLASS_NAME, using = "alertContent") WebElement alert_popup;
+	@FindBy(how = How.ID, using = "btnmsgok") WebElement ok_btn;
+	
+//	Browse documents page elements
+	
+	@FindBy(how = How.ID, using = "btnsource") WebElement source_browsefile;
+	@FindBy(how = How.ID, using = "btnDest") WebElement destination_folder;
+	
+	
+	public pf_onlinesignpage(WebDriver driver){
+		
+		PageFactory.initElements(driver, this);
+	}
+}

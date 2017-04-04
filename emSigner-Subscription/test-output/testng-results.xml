@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="89806" started-at="2017-04-03T10:00:51Z" finished-at="2017-04-03T10:02:21Z">
+    <groups>
+      <group name="Smk">
+        <method signature="Script_subscription.subscriptioncheck.loginvalidcheck(java.util.Map)" name="loginvalidcheck" class="Script_subscription.subscriptioncheck"/>
+      </group>
+      <group name="Uat">
+        <method signature="Script_subscription.subscriptioncheck.loginvalidcheck(java.util.Map)" name="loginvalidcheck" class="Script_subscription.subscriptioncheck"/>
+      </group>
+    </groups>
+    <test name="Chrome" duration-ms="89806" started-at="2017-04-03T10:00:51Z" finished-at="2017-04-03T10:02:21Z">
+      <class name="Script_subscription.subscriptioncheck">
+        <test-method status="PASS" signature="createreport()" name="createreport" is-config="true" duration-ms="238" started-at="2017-04-03T10:00:51Z" finished-at="2017-04-03T10:00:51Z">
+        </test-method>
+        <test-method status="PASS" signature="launchapp(java.lang.String)" name="launchapp" is-config="true" duration-ms="11233" started-at="2017-04-03T10:00:52Z" finished-at="2017-04-03T10:01:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="loginvalidcheck(java.util.Map)" name="loginvalidcheck" duration-ms="39873" started-at="2017-04-03T10:01:03Z" finished-at="2017-04-03T10:01:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=2.0, Execute_Flag=Y, Uname=srt1@protonmail.com, Script_Name=ValidLogin, TC_ID=t001, Confirmpwd=welcome1, Expected_Result=Dashboard - emSigner, Pwd=welcome, Newpwd=welcome1, Currentpwd=welcome, Actual Result=null}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="closeapp()" name="closeapp" is-config="true" duration-ms="400" started-at="2017-04-03T10:01:43Z" finished-at="2017-04-03T10:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="launchapp(java.lang.String)" name="launchapp" is-config="true" duration-ms="7827" started-at="2017-04-03T10:01:43Z" finished-at="2017-04-03T10:01:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="loginvalidcheck(java.util.Map)" name="loginvalidcheck" duration-ms="29748" started-at="2017-04-03T10:01:51Z" finished-at="2017-04-03T10:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Execute_Flag=Y, Uname=rajananthth@gmail.com, Script_Name=ValidLogin, TC_ID=t004, Confirmpwd=welcome1, Expected_Result=Dashboard - emSigner, Pwd=welcome, Newpwd=welcome1, Currentpwd=welcome, Actual Result=null}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="closeapp()" name="closeapp" is-config="true" duration-ms="130" started-at="2017-04-03T10:02:21Z" finished-at="2017-04-03T10:02:21Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

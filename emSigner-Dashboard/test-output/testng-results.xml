@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57194" started-at="2017-03-21T17:37:38Z" finished-at="2017-03-21T17:38:35Z">
+    <groups>
+      <group name="SMK">
+        <method signature="Scripts.Dashboard_Script.logincheck(java.util.Map)" name="logincheck" class="Scripts.Dashboard_Script"/>
+      </group>
+      <group name="REG">
+        <method signature="Scripts.Dashboard_Script.logincheck(java.util.Map)" name="logincheck" class="Scripts.Dashboard_Script"/>
+      </group>
+    </groups>
+    <test name="Chrome" duration-ms="57194" started-at="2017-03-21T17:37:38Z" finished-at="2017-03-21T17:38:35Z">
+      <class name="Scripts.Dashboard_Script">
+        <test-method status="PASS" signature="createreport()" name="createreport" is-config="true" duration-ms="329" started-at="2017-03-21T17:37:37Z" finished-at="2017-03-21T17:37:38Z">
+        </test-method>
+        <test-method status="PASS" signature="launch(java.lang.String)" name="launch" is-config="true" duration-ms="8340" started-at="2017-03-21T17:37:38Z" finished-at="2017-03-21T17:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="logincheck(java.util.Map)" name="logincheck" duration-ms="47658" started-at="2017-03-21T17:37:47Z" finished-at="2017-03-21T17:38:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Execute_Flag=Y, Uname=rajananth@gmx.com, Script_Name=ValidLogin, TC_ID=t004, Expected_Result=Dashboard - emSigner, Pwd=welcome, Actual Result=null}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="closeapp()" name="closeapp" is-config="true" duration-ms="544" started-at="2017-03-21T17:38:34Z" finished-at="2017-03-21T17:38:35Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

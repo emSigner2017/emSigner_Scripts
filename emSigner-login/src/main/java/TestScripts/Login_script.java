@@ -59,6 +59,8 @@ public class Login_script extends Base{
 		
 		
 		String Actual = fd.getTitle();
+		
+		System.out.println("Actual Result :" + Actual);
 		if(Actual.equals(exp)){
 			ett.log(LogStatus.PASS, "Logged in and the user is in Dashboard","Passed");
 			System.out.println(" Pass");

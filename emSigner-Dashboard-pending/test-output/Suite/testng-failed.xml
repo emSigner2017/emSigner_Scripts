@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="ch"/>
+  <test name="Chrome(failed)" parallel="tests" preserve-order="false">
+    <parameter name="browser" value="ch"/>
+    <groups>
+      <run>
+        <include name="Uat"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Script_Pending.Storagemsgcheck">
+        <methods>
+          <include name="launchapp"/>
+          <include name="loginvalidcheck" invocation-numbers="0"/>
+          <include name="createreport"/>
+          <include name="closeapp"/>
+        </methods>
+      </class>
+      <class name="Script_Pending.pendingcheck">
+        <methods>
+          <include name="loginvalidcheck" invocation-numbers="0"/>
+          <include name="launchapp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

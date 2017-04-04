@@ -1,0 +1,14 @@
+package PageFactory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class pf_changepassword {
+
+	
+public pf_changepassword(WebDriver driver){
+		
+		PageFactory.initElements(driver, this);
+	}
+
+}

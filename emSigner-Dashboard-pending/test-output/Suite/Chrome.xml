@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAP122" name="Script_Pending.Storagemsgcheck" tests="2" failures="0" timestamp="17 Mar 2017 09:29:35 GMT" time="117.453" errors="0">
+  <testcase name="loginvalidcheck" time="50.278" classname="Script_Pending.Storagemsgcheck"/>
+  <testcase name="loginvalidcheck" time="47.744" classname="Script_Pending.pendingcheck"/>
+</testsuite>

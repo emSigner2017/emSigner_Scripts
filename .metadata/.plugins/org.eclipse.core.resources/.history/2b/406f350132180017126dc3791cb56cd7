@@ -1,0 +1,13 @@
+package PageFactory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class pf_onlinesignpage {
+
+	
+	public pf_onlinesignpage(WebDriver driver){
+		
+		PageFactory.initElements(driver, this);
+	}
+}

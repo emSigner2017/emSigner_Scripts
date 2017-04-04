@@ -1,0 +1,15 @@
+package PageFactory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+
+public class pf_changepassword {
+
+	@FindBy(how = How.XPATH, using = "//div[@class='page-topbar']/div[2]/div[2]/ul/li/a/span") WebElement profileicon;
+public pf_changepassword(WebDriver driver){
+		
+		PageFactory.initElements(driver, this);
+	}
+
+}
